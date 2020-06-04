@@ -9,3 +9,13 @@ export interface IRecipe {
   ingredients: IIngredient[];
   instructions: string[];
 }
+
+export interface IRecipeCreate {
+  id?: number;
+  title: string;
+  description: string;
+  serves: string;
+  imageUrl: string;
+  ingredients: IIngredient[];
+  instructions: string[];
+}
